@@ -2,11 +2,20 @@
 
 **CodeAlpha Cyber Security Internship, Task 1.**
 
+## 📌 Project Overview
+
 A basic network sniffer. It captures live traffic and shows what is inside each packet: who sent it, who receives it, which protocol and ports it uses, and a preview of the data. The capture is also saved to `capture.pcap`, which opens in Wireshark.
 
 ```text
 network card -> Npcap (capture driver) -> Scapy sniff() -> show() runs for every packet -> capture.pcap
 ```
+## 🎯Objectives
+
+- Build a Python program to capture network traffic packets. 
+- Analyze captured packets to understand their structure and content. 
+- Learn how data flows through the network and the basics of protocols. 
+- Use libraries like `scapy` or `socket` for packet capturing. 
+- Display useful information such as source/destination IPs, protocols and payloads.
 
 ## Requirements
 
