@@ -63,7 +63,7 @@ Done. Captured 30 packets, saved to capture.pcap
 2. `show()` skips packets without an IP layer (ARP, IPv6), reads the source, destination and protocol from the IP layer, and the ports from the TCP or UDP layer.
 3. `packet.summary()` prints the layers. The `Raw` layer, if present, holds the payload.
 4. `wrpcap()` saves all captured packets to `capture.pcap`.
-![](sniffer_code.png)
+![](sniffer_code.png) ![](sniffer_code2.png)
 
 ## Open the capture in Wireshark
 
